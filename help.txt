@@ -1,0 +1,27 @@
+Commands >>
+
+$ cwd       :    returns the  current working directory as well as change the the cwd by using the = sign.
+$ public ip :    returns the public ip address of the victim.
+$ stream    :    allows to stream/download files from victim's filesystem.
+$ pipe      :    allows to pipe/send files to the victim's machine.
+$ download  :    downloads any file from a given url to the victim's filesystem.
+$ open      :    automatically opens any given file on the victim's filesystem.
+$ visit     :    automatically opens a browser to a targeted url.
+$ launch    :    automatically opens any installed program on the machine.
+$ snap      :    takes a screenshot of the desktop window with a format specified next to the -f flag.
+$ capture   :    takes a picture from the webcam of the victim with a format specified next to the -f flag.
+$ encrypt   :    encrypts a file via a provided password.
+$ decrypt   :    decrypts a file via a password similar with the one it was encrypted with.
+$ system    :    returns a set of system information if passed with the --info flag or any information next to the --get flag.
+$ eval      :    allows to execute JavaScript directly.
+$ rickroll  :    does a rickroll.
+$ uninstall :    uninstalls the program from the machine.
+$ exit      :    closes the current pirater session.
+$ help      :    lists all commands and their functions.
+
+   Dev Commands >>
+
+npm start           :  starts the hacking server.
+npm run test        :  emulates a victim on the local network.
+npm run build           :  compiles an executable to the current os in the dist folder.
+npm run help        :  displays a list of commands to use.
